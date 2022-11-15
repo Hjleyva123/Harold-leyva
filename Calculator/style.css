@@ -1,0 +1,88 @@
+.calculator {
+    padding: 10px;
+    border-radius: 1em;
+    height: 600px;
+    width: 500px;
+    margin: auto;
+    background-color: #191b28;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.display-box {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #dcdbe1;
+    border: solid rgb(44, 233, 7) 3.5px;
+    border-radius: 5px;
+    width: 100%;
+    height: 65%;
+    font-size: 30px;
+    -webkit-box-shadow: inset 0px 0px 5px #0206fa;
+}
+
+#btn {
+    background-color:red;
+}
+#btn:active {
+    background: #0206fa;
+    -webkit-box-shadow: inset 0px 0px 5px #0206fa;
+    -moz-box-shadow: inset 0px 0px 5px #0206fa;
+    box-shadow: inset 0px 0px 5px #0206fa;
+}
+
+
+input[type=button] {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #4005cc;
+    color: white;
+    width: 100%;
+    border-radius:4px;
+    height: 70%;
+    outline: none;
+    font-size: 30px;
+}
+input:active[type=button] {
+    background: #eeff05;
+    -webkit-box-shadow: inset 0px 0px 5px #eeff05;
+    -moz-box-shadow: inset 0px 0px 5px #eeff05;
+    box-shadow: inset 0px 0px 5px #eeff05;
+
+}
+
+html, body {
+	height: 200%;
+}
+
+
+body {
+
+    background-color: red;
+     /* For browsers that do not support gradients */
+    background-image: linear-gradient(rgb(15, 241, 204), orange);
+}
+	
+h1 {
+ color:black(15, 204, 24);
+ text-shadow: 2px 2px;
+ font-style:italic;
+ font-size:80px;
+ padding-inline-start: 5x;
+ margin-top: 10px;
+ margin-block: 50px;
+ max-width: max-content;
+ text-align: center;
+ padding-top: 10px;
+
+   }
+ p {
+ color: #1f0505;
+ font-size: 30px;
+ background-position: 10px;
+ padding:5px;
+ margin-top: 10px;
+ margin-block: 50px;
+ font-style:initial;
+ text-align:center;
+ text-justify:initial;
+
+  }
+
+ 
